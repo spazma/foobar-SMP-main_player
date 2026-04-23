@@ -330,6 +330,14 @@ function on_mouse_lbtn_up(x, y) {
             y >= pathRect.y && y <= pathRect.y + pathRect.h) {
 
             var p = pathRect.path;
+
+            // 1) Usuwamy prefixy typu file://
+            p = p.replace(/^file:\/\//i, "");
+
+            // 2) Normalizujemy ukośniki
+            p = p.replace(/\//g, "\\");
+
+            // 3) Escapujemy cudzysłowy
             var escaped = p.replace(/"/g, '""');
 
             try {
