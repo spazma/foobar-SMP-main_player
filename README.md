@@ -39,7 +39,7 @@ Licencja MIT (darmowa dla wszystkich)
 
 <img width="653" height="365" alt="QrKpVVZJpFL" src="https://github.com/user-attachments/assets/1671fdcd-bcd4-4052-884a-5e8e22997e93" />
 
-🇬🇧 Englis (ENG)
+🇬🇧 English (ENG)
 ===========
 
 In a nutshell — here’s what we’re all about
