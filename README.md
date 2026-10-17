@@ -1,4 +1,11 @@
-Polski (PL)
+# Foobar2000 JScript Panel (for SMP)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+🇵🇱 Szybki start — polski poniżej    
+🇬🇧 Quick start — English below  
+
+🇵🇱Polski (PL)
 ===========
 
 Krótko — pochwalamy się
@@ -28,11 +35,11 @@ Szybka instalacja
 
 License / Kontakt
 -----------------
-Licencja MIT
+Licencja MIT (darmowa dla wszystkich)
 
-# foobar2000 JScript Panel — quick overview / quick pitch
+<img width="653" height="365" alt="QrKpVVZJpFL" src="https://github.com/user-attachments/assets/1671fdcd-bcd4-4052-884a-5e8e22997e93" />
 
-Polish (PL)
+🇬🇧 Englis (ENG)
 ===========
 
 In a nutshell — here’s what we’re all about
@@ -62,6 +69,4 @@ Quick installation
 
 License / Contact
 -----------------
-MIT License
-
-Translated with DeepL.com (free version)
+MIT License (free fol all)
