@@ -1,7 +1,6 @@
-// panel.js — JScript Panel dla foobar2000
+// panel.js — JScript Panel dla foobar2000 by Spazma
 // Funkcje: historia prev/next, fade overlay, ARTIST anim (slide + czarne glow), shortened path
 // Dodano: tooltipy (path full, RG values, prev/next lists, prog time, star hint, artist info)
-// Zmieniono: "Prev"/"Next" -> "prev"/"next"
 
 var ww = 0, wh = 0;
 
@@ -393,13 +392,28 @@ function on_paint(gr) {
 
     var y = 20;
 
-    // ARTIST (slide-in + black glow)
+    // ARTIST (slide-in + black glow) -- left-aligned to title
     var artistRect = null;
     if (artist) {
+        // zmierz szerokość tytułu aby przypiąć artystę do jego lewej krawędzi
+        var titleW = title ? gr.CalcTextWidth(title, fontTitle) : 0;
+        var titleX = Math.floor((ww - titleW) / 2);
+
         var text = "> " + artist + " <";
         var w = gr.CalcTextWidth(text, fontArtist);
         var h = fontArtist.Height;
-        var baseX = Math.floor((ww - w) / 2);
+
+        // baseX: ustawienie lewej krawędzi artysty na lewą krawędź tytułu
+        // jeśli nie ma tytułu (titleW==0) wróć do centrowania
+        var baseX;
+        if (titleW > 0) {
+            baseX = titleX;
+            // zabezpieczenie: jeśli artysta wychodzi poza prawą krawędź okna, przesuwamy go tak, żeby był widoczny
+            if (baseX + w > ww) baseX = Math.max(0, ww - w);
+        } else {
+            baseX = Math.floor((ww - w) / 2);
+        }
+
         var ay = y;
         var offset = Math.floor((artistAnim / ARTIST_ANIM_START) * ARTIST_SLIDE_MAX);
         var x = baseX - offset;
