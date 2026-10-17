@@ -44,4 +44,5 @@ Projekt skupia się na czystości UI, płynnych animacjach i praktycznych funkcj
 
 MIT — rób z tym, co chcesz.
 
-<img width="709" height="310" alt="4306foobar2000_e2gfN5Gn1p" src="https://github.com/user-attachments/assets/f766e25f-fec4-469a-b8ad-352ac2f89788" />
+<img width="653" height="332" alt="4wupjhfibMM" src="https://github.com/user-attachments/assets/ea737956-fdd0-4108-ab26-8b508bfff6be" />
+
