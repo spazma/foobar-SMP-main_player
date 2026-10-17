@@ -1,48 +1,67 @@
-# 🎧 main_player — minimalistyczny panel odtwarzacza dla foobar2000 (SMP 1.6.1)
+Polski (PL)
+===========
 
-Nowoczesny, lekki i w pełni animowany panel odtwarzacza dla **Spider Monkey Panel 1.6.1**.  
-Projekt skupia się na czystości UI, płynnych animacjach i praktycznych funkcjach.
+Krótko — pochwalamy się
+------------------------
+Elegancki, lekki panel JScript dla foobar2000 z przyjemnymi animacjami i praktycznymi funkcjami — wszystko zaprojektowane, żeby wyglądało dobrze i działało płynnie.
 
----
+Najważniejsze atuty
+-------------------
+- Historia: własne stosy prev / next — wróć do wcześniej odtwarzanych utworów niezależnie od playlisty.
+- Tooltipy: pełna ścieżka, ReplayGain (gain/peak + warning), listy historii, czas progresu, info o artyście.
+- Progress: stylizowany pasek z zaokrąglonymi końcami i precyzyjnym seekiem.
+- Rating: szybkie ustawianie gwiazdek bez dodatkowych menu.
+- Path handling: inteligentne skracanie ścieżek, klik — otwórz Explorer z zaznaczeniem pliku.
+- UX: overlay "Stopped", pulsujący akcent, gładkie fade'y przy zmianie utworu.
+- Lekkość: minimalne zależności — działa w standardowym JScript Panel (fb + gdi).
+- Konfigurowalne: fonty, kolory i animacje łatwe do zmiany na początku pliku.
 
-## ✨ Funkcje
+Dlaczego warto?
+--------------
+Szybki sposób na ładny, funkcjonalny panel odtwarzania bez instalowania dużych skórek — idealny do minimalistycznych layoutów i niestandardowych konfiguracji.
 
-- **Informacje o utworze**  
-  - tytuł, artysta, album, rok  
-  - bitrate, samplerate, codec, filesize  
-  - ReplayGain z ostrzeżeniem o peak > 1
+Szybka instalacja
+-----------------
+1. Skopiuj `panel.js` do folderu panelu JScript w foobar2000 (Lub po prostu skopiuj kod bezpośrednio do panelu)
+2. Dostosuj fonty/kolory na górze pliku, jeśli chcesz.
+3. Przeładuj panel
 
-- **Klikalne gwiazdki (rating)**  
-  - hover highlight  
-  - zapis oceny przez `RunContextCommandWithMetadb`
+License / Kontakt
+-----------------
+Licencja MIT
 
-- **Aktywny Progressbar**  
-  - seek po kliknięciu  
+# foobar2000 JScript Panel — quick overview / quick pitch
 
-- **Klikalna ścieżka pliku**  
-  - otwiera katalog na dysku i zaznacza plik
+Polish (PL)
+===========
 
----
+In a nutshell — here’s what we’re all about
+------------------------
+An elegant, lightweight JScript panel for foobar2000 with pleasant animations and practical features—all designed to look good and run smoothly.
 
-## 📦 Wymagania
+Key Features
+-------------------
+- History: custom prev/next stacks—go back to previously played tracks regardless of the playlist.
+- Tooltips: full path, ReplayGain (gain/peak + warning), history lists, progress time, artist info.
+- Progress: stylized progress bar with rounded ends and precise seek control.
+- Rating: quick star rating without additional menus.
+- Path handling: intelligent path shortening; one click opens Explorer with the file selected.
+- UX: “Stopped” overlay, pulsating accent, smooth fades when changing tracks.
+- Lightweight: minimal dependencies—works in the standard JScript Panel (fb + gdi).
+- Customizable: fonts, colors, and animations are easy to change at the beginning of the file.
 
-- [foobar2000](https://www.foobar2000.org/)
-- [Spider Monkey Panel **1.6.1**](https://github.com/TheQwertiest/foo_spider_monkey_panel/releases/tag/v1.6.1)
-- Windows (WScript.Shell do otwierania folderów)
+Why use it?
+--------------
+A quick way to get a nice, functional playback panel without installing large skins—perfect for minimalist layouts and custom setups.
 
----
+Quick installation
+-----------------
+1. Copy `panel.js` to the JScript panel folder in foobar2000 (or simply copy the code directly into the panel)
+2. Customize the fonts/colors at the top of the file, if desired.
+3. Reload the panel
 
-## 📁 Instalacja
+License / Contact
+-----------------
+MIT License
 
-1. Utwórz nowy panel SMP  
-2. Wklej zawartość `main_player.js`  
-3. Zapisz i odśwież panel
-
----
-
-## 📜 Licencja
-
-MIT — rób z tym, co chcesz.
-
-<img width="653" height="332" alt="4wupjhfibMM" src="https://github.com/user-attachments/assets/ea737956-fdd0-4108-ab26-8b508bfff6be" />
-
+Translated with DeepL.com (free version)
