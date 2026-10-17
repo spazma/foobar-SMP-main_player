@@ -69,4 +69,4 @@ Quick installation
 
 License / Contact
 -----------------
-MIT License (free fol all)
+MIT License (free for all)
